@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;1,400;1,700&family=Tiro+Bangla:ital@1&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PT Serif', serif;
+  font-family: 'Tiro Bangla', serif;
+}
+
+/* =========================Header======================================== */
+.container {
+  /* background-color: gray; */
+  height: 100vh;
+  margin-top: 5rem;
+  /* border: 5px solid black; */
+}
+
+.content {
+  max-width: 69rem;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  align-items: center;
+}
+
+.head-line {
+  margin-left: 30rem;
+  text-align: end;
+}
+
+.head-line h1 {
+  font-weight: bold;
+}
+
+.header .image img {
+  height: 50vh;
+  width: 20vw;
+  border-radius: 50%;
+}
+
+/* ===================================main================================== */
+
+.main {
+  margin-top: 5rem;
+}
+.main h1 {
+  font-size: 7rem;
+  margin-bottom: 5rem;
+}
+
+.bio {
+  margin-top: 30px;
+}
+
+.bio h1 {
+  margin-bottom: 30px;
+}
+
+footer {
+  font-size: 1.5rem;
+  margin-top: 3rem;
+  text-align: end;
+}
+
+/* =======================mainFooter============= */
+
+.mainFooter {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  height: 36px;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
